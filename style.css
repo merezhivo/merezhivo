@@ -812,3 +812,14 @@ h1 em, h2 em, h3 em {
 @media (max-width: 560px) {
   .logo-sm { width: 44px; height: 44px; }
 }
+
+.logo-hero img { display: block; width: 100%; height: auto; }
+
+/* big rotating logo between "about" and "stories" */
+.logo-spin {
+  display: flex;
+  justify-content: center;
+  padding: 30px 9vw 110px;
+}
+
+.logo-big { width: min(78vw, 560px); }
