@@ -209,3 +209,38 @@ try {
 } catch (error) {
   setLanguage("uk");
 }
+
+// Rotate the lace ring of every logo with the page scroll (eased).
+// The centre layer (tree + lettering) is never rotated, so the text stays readable.
+(() => {
+  const rings = document.querySelectorAll(".logo-ring");
+  if (!rings.length) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  const DEG_PER_PX = 0.06; // 1000px of scrolling = 60deg
+  let current = 0;
+  let running = false;
+
+  const frame = () => {
+    const target = window.scrollY * DEG_PER_PX;
+    current += (target - current) * 0.12;
+    rings.forEach((ring) => {
+      ring.style.transform = `rotate(${current.toFixed(2)}deg)`;
+    });
+    if (Math.abs(target - current) > 0.02) {
+      requestAnimationFrame(frame);
+    } else {
+      running = false;
+    }
+  };
+
+  const start = () => {
+    if (!running) {
+      running = true;
+      requestAnimationFrame(frame);
+    }
+  };
+
+  window.addEventListener("scroll", start, { passive: true });
+  start();
+})();
