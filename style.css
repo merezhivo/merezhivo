@@ -906,3 +906,73 @@ h1 em, h2 em, h3 em {
     border-radius: 12px;
   }
 }
+
+/* More compact editorial photo gallery */
+
+.story-gallery {
+  width: min(100%, 1000px);
+  margin: 0 auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: 150px;
+  gap: 12px;
+}
+
+.gallery-item {
+  min-width: 0;
+  min-height: 0;
+  border-radius: 3px;
+}
+
+.gallery-large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.gallery-tall {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.gallery-wide {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Carpathian photo */
+
+.safehome-photo {
+  width: 100%;
+  max-height: 440px;
+  object-fit: cover;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .story-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 125px;
+    gap: 8px;
+  }
+
+  .gallery-large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .gallery-tall {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .gallery-wide {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+}
