@@ -55,13 +55,6 @@ button { font: inherit; }
   letter-spacing: .17em;
 }
 
-.brand-mark {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-  display: block;
-}
-
 .brand-mark2 {
   width: 39px;
   height: 39px;
