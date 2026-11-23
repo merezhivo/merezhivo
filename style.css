@@ -1469,26 +1469,28 @@ h1 em, h2 em, h3 em {
 
 .retreat-text {
   position: absolute;
-  left: 50%;
+  left: 0;
+  right: 0;
   bottom: 0;
-  transform: translateX(-50%);
-  width: 100%;
-  padding: 35px 8% 45px;
+  padding: 45px 8%;
+  color: #292a25;
   box-sizing: border-box;
-  color: #fff;
   background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(41, 42, 37, .78)
+    to top,
+    rgba(245, 241, 231, .96),
+    rgba(245, 241, 231, .82) 75%,
+    transparent
   );
+  z-index: 2;
 }
 
 .retreat-text p {
-  max-width: 780px;
-  margin: 0 auto 16px;
+  max-width: 1000px;
+  margin: 0 auto 20px;
   font-family: var(--sans);
-  font-size: clamp(14px, 1.2vw, 17px);
-  line-height: 1.75;
+  font-size: clamp(18px, 1.5vw, 21px);
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 .retreat-text p:last-child {
@@ -1496,27 +1498,21 @@ h1 em, h2 em, h3 em {
 }
 
 @media (max-width: 700px) {
+  .retreat-text {
+    padding: 20px;
+  }
+
+  .retreat-text p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
   .retreat-section {
     padding: 25px 0 60px;
   }
 
   .retreat-photo {
     overflow: visible;
-  }
-
-  .retreat-text {
-    position: relative;
-    left: auto;
-    bottom: auto;
-    transform: none;
-    padding: 25px 20px 0;
-    color: var(--ink);
-    background: none;
-  }
-
-  .retreat-text p {
-    font-size: 15px;
-    line-height: 1.75;
   }
 }
 
