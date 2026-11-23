@@ -1155,32 +1155,26 @@ h1 em, h2 em, h3 em {
 .logo-center {
   display: block;
   position: relative;
-  width: min(62vw, 400px);
+  width: min(52vw, 340px);
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-  left: -45px;
+  left: 0;
   right: auto;
   transform: none;
 }
 
 @media (max-width: 850px) {
-  .hero-logo-wrap {
-    justify-self: center;
-    width: 100%;
-    max-width: 390px;
-    transform: none;
-  } 
   .logo-center {
-    width: min(85vw, 390px);
+    width: min(75vw, 340px);
     left: 0;
   }
 }
 
 @media (max-width: 560px) {
   .logo-center {
-    width: 85vw;
-    max-width: 340px;
+    width: min(78vw, 300px);
+    max-width: 100%;
     left: 0;
   }
 }
