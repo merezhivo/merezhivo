@@ -1179,3 +1179,31 @@ h1 em, h2 em, h3 em {
     max-width: 340px;
   }
 }
+
+
+/* Main story video — edge to edge on desktop and mobile */
+
+.story-main-media.video-frame {
+  position: relative;
+  width: 100vw;
+  max-width: none;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 0;
+  overflow: hidden;
+  border-radius: 0;
+  background: #292a25;
+  box-sizing: border-box;
+}
+
+.story-main-media.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
