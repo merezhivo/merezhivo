@@ -1521,3 +1521,247 @@ h1 em, h2 em, h3 em {
     line-height: 1.75;
   }
 }
+
+/* SAFE HOME RESIDENCY */
+
+.safe-home-section {
+  padding: 100px 0 120px;
+  overflow: hidden;
+}
+
+.safe-home-hero,
+.safe-home-intro,
+.safe-home-offer,
+.safe-home-fundraising,
+.safe-home-contact,
+.safe-home-closing {
+  width: min(1120px, calc(100% - 80px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.safe-home-hero {
+  padding: 55px 0 100px;
+  border-bottom: 1px solid rgba(40, 40, 35, 0.2);
+}
+
+.safe-home-eyebrow,
+.safe-home-section .section-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.safe-home-hero h2 {
+  margin: 55px 0 35px;
+  font-size: clamp(54px, 9vw, 112px);
+  line-height: 0.95;
+  letter-spacing: -0.065em;
+  font-weight: 500;
+}
+
+.safe-home-hero h2 span {
+  color: #a8793e;
+}
+
+.safe-home-welcome {
+  font-size: clamp(23px, 3vw, 34px);
+  margin: 0 0 18px;
+}
+
+.safe-home-lead {
+  max-width: 650px;
+  font-size: 19px;
+  line-height: 1.65;
+}
+
+.safe-home-intro {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 80px;
+}
+
+.safe-home-intro-text {
+  max-width: 700px;
+}
+
+.safe-home-intro-text p,
+.safe-home-offer-content p,
+.safe-home-fundraising-text p,
+.safe-home-contact p,
+.safe-home-closing p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin: 0 0 25px;
+}
+
+.safe-home-offer {
+  padding: 75px 0;
+  border-top: 1px solid rgba(40, 40, 35, 0.2);
+  border-bottom: 1px solid rgba(40, 40, 35, 0.2);
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 80px;
+}
+
+.safe-home-offer h3,
+.safe-home-fundraising h3,
+.safe-home-contact h3 {
+  font-size: clamp(38px, 5vw, 64px);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  margin: 25px 0;
+}
+
+.safe-home-offer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 35px 0;
+}
+
+.safe-home-offer-content li {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(40, 40, 35, 0.2);
+  font-size: 18px;
+}
+
+.safe-home-offer-content li::before {
+  content: "↗";
+  margin-right: 14px;
+  color: #a8793e;
+}
+
+.safe-home-free {
+  font-size: 27px !important;
+  color: #a8793e;
+  font-weight: 500;
+}
+
+.safe-home-fundraising {
+  padding: 110px 0;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 90px;
+  align-items: start;
+}
+
+.safe-home-fundraiser-announcement {
+  font-weight: 600;
+}
+
+.safe-home-bank {
+  padding: 35px;
+  background: #e9e3d7;
+}
+
+.safe-home-bank h4 {
+  font-size: 30px;
+  margin: 30px 0;
+  font-weight: 500;
+}
+
+.bank-detail {
+  padding: 16px 0;
+  border-top: 1px solid rgba(40, 40, 35, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  overflow-wrap: anywhere;
+}
+
+.bank-detail span {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.bank-detail strong {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.safe-home-contact {
+  padding: 75px 0;
+  border-top: 1px solid rgba(40, 40, 35, 0.2);
+}
+
+.safe-home-contact a {
+  font-size: clamp(18px, 3vw, 26px);
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+.safe-home-closing {
+  padding: 75px 0 0;
+  border-top: 1px solid rgba(40, 40, 35, 0.2);
+}
+
+.safe-home-closing h3 {
+  font-size: clamp(45px, 7vw, 84px);
+  letter-spacing: -0.06em;
+  font-weight: 500;
+  margin: 25px 0;
+}
+
+.safe-home-final {
+  font-size: 23px !important;
+  margin-top: 45px !important;
+}
+
+@media (max-width: 768px) {
+  .safe-home-section {
+    padding: 60px 0 75px;
+  }
+
+  .safe-home-hero,
+  .safe-home-intro,
+  .safe-home-offer,
+  .safe-home-fundraising,
+  .safe-home-contact,
+  .safe-home-closing {
+    width: calc(100% - 40px);
+  }
+
+  .safe-home-hero {
+    padding: 35px 0 65px;
+  }
+
+  .safe-home-hero h2 {
+    margin: 45px 0 28px;
+    font-size: clamp(48px, 12vw, 76px);
+  }
+
+  .safe-home-lead {
+    font-size: 17px;
+  }
+
+  .safe-home-intro,
+  .safe-home-offer,
+  .safe-home-fundraising {
+    padding: 65px 0;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .safe-home-intro-text p,
+  .safe-home-offer-content p,
+  .safe-home-fundraising-text p,
+  .safe-home-contact p,
+  .safe-home-closing p {
+    font-size: 16px;
+  }
+
+  .safe-home-bank {
+    padding: 25px 20px;
+  }
+
+  .safe-home-closing {
+    padding-top: 55px;
+  }
+}
