@@ -1369,12 +1369,6 @@ h1 em, h2 em, h3 em {
   right: 0;
   padding: 45px 8%;
   color: #fff;
-  background: linear-gradient(
-    to bottom,
-    rgba(41, 42, 37, .88),
-    rgba(41, 42, 37, .55) 75%,
-    transparent
-  );
   box-sizing: border-box;
   z-index: 2;
 }
@@ -1400,12 +1394,6 @@ h1 em, h2 em, h3 em {
   padding: 45px 8%;
   color: #fff;
   box-sizing: border-box;
-  background: linear-gradient(
-    to top,
-    rgba(41, 42, 37, .9),
-    rgba(41, 42, 37, .4) 75%,
-    transparent
-  );
   z-index: 2;
 }
 
