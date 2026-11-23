@@ -1383,7 +1383,7 @@ h1 em, h2 em, h3 em {
   max-width: 850px;
   margin: 0 auto 16px;
   font-family: var(--sans);
-  font-size: clamp(14px, 1.2vw, 17px);
+  font-size: clamp(17px, 1.2vw, 17px);
   line-height: 1.75;
 }
 
@@ -1445,7 +1445,7 @@ h1 em, h2 em, h3 em {
   }
 
   .why-content-bottom p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.75;
   }
 }
