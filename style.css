@@ -1344,29 +1344,17 @@ h1 em, h2 em, h3 em {
 }
 /* WHY CONTENT */
 
+/* WHY CONTENT */
+
 .why-content-section {
-  width: min(100% - 80px, 1120px);
-  margin: 0 auto;
-  padding: 60px 0 100px;
-}
-
-.why-content-top,
-.why-content-bottom {
-  max-width: 780px;
-  margin: 0 auto;
-}
-
-.why-content-section p {
-  font-family: var(--sans);
-  font-size: clamp(15px, 1.25vw, 18px);
-  line-height: 1.85;
-  color: var(--ink);
-  margin: 0 0 22px;
+  width: 100%;
+  padding: 15px 0 100px;
 }
 
 .why-content-photo {
+  position: relative;
   width: 100%;
-  margin: 55px 0;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -1376,75 +1364,56 @@ h1 em, h2 em, h3 em {
   height: auto;
 }
 
+.why-photo-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 70px 8% 45px;
+  color: #fff;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(41, 42, 37, .82)
+  );
+  box-sizing: border-box;
+}
+
+.why-photo-text p {
+  max-width: 850px;
+  margin: 0 auto 16px;
+  font-family: var(--sans);
+  font-size: clamp(14px, 1.2vw, 17px);
+  line-height: 1.75;
+}
+
+.why-photo-text p:last-child {
+  margin-bottom: 0;
+}
+
 .why-content-bottom {
-  padding-top: 5px;
+  max-width: 780px;
+  margin: 55px auto 0;
 }
 
 @media (max-width: 700px) {
   .why-content-section {
-    width: calc(100% - 40px);
-    padding: 35px 0 65px;
+    padding: 10px 0 65px;
   }
 
   .why-content-photo {
-    margin: 35px 0;
+    overflow: visible;
   }
 
-  .why-content-section p {
-    font-size: 15px;
-    line-height: 1.75;
-  }
-}
-
-@media (max-width: 700px) {
-  .practices-photo {
+  .why-photo-text {
     position: relative;
-    overflow: hidden;
+    padding: 25px 20px 0;
+    color: var(--ink);
+    background: none;
   }
 
-  .practices-list {
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    left: auto;
-    transform: translateY(-50%);
-    width: 44%;
-    max-width: none;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    box-sizing: border-box;
-  }
-
-  .practices-list h2 {
-    font-size: clamp(19px, 5vw, 27px);
-    line-height: 1.15;
-    margin-bottom: 12px;
-  }
-
-  .practices-list li {
-    font-size: clamp(9px, 2.5vw, 12px);
-    line-height: 1.3;
-    padding: 6px 0;
-    border-bottom: 1px solid rgba(255,255,255,.4);
-  }
-}
-
-.why-content-section {
-  padding-top: 15px;
-}
-
-.why-content-top {
-  margin-top: 0;
-}
-
-.why-content-top p:first-child {
-  margin-top: 0;
-}
-
-@media (max-width: 700px) {
-  .why-content-section {
-    padding-top: 10px;
+  .why-content-bottom {
+    margin: 30px 20px 0;
   }
 }
 
