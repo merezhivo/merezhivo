@@ -976,3 +976,59 @@ h1 em, h2 em, h3 em {
     grid-row: span 1;
   }
 }
+
+/* HERO BACKGROUND PHOTO */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 100svh;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(28, 29, 25, 0.48) 0%,
+      rgba(28, 29, 25, 0.20) 55%,
+      rgba(28, 29, 25, 0.12) 100%
+    ),
+    url("assets/photos/1.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Keep hero content above the photo */
+
+.hero-topline,
+.hero-composition {
+  position: relative;
+  z-index: 1;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100svh;
+  }
+
+  .hero-background {
+    background-position: 58% center;
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(28, 29, 25, 0.25) 0%,
+        rgba(28, 29, 25, 0.35) 45%,
+        rgba(28, 29, 25, 0.58) 100%
+      ),
+      url("assets/photos/1.jpg");
+  }
+}
