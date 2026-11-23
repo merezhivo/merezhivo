@@ -1419,32 +1419,43 @@ h1 em, h2 em, h3 em {
 
 @media (max-width: 700px) {
   .why-content-section {
-    padding: 10px 0 65px;
+    padding: 10px 0 45px;
   }
 
   .why-content-photo {
-    overflow: hidden;
+    overflow: visible;
+  }
+
+  .why-content-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .why-photo-text-top {
-    top: 4%;
-    padding: 20px 20px;
+    position: static;
+    padding: 24px 20px 10px;
+    color: var(--ink);
+    background: var(--paper-dark);
   }
 
   .why-photo-text p {
     font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 12px;
+    line-height: 1.55;
+    margin-bottom: 14px;
   }
 
   .why-content-bottom {
-    padding: 20px;
+    position: static;
+    padding: 10px 20px 24px;
+    color: var(--ink);
+    background: var(--paper-dark);
   }
-  
+
   .why-content-bottom p {
     font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 12px;
+    line-height: 1.55;
+    margin-bottom: 14px;
   }
 }
 
@@ -1498,21 +1509,31 @@ h1 em, h2 em, h3 em {
 }
 
 @media (max-width: 700px) {
-  .retreat-text {
-    padding: 20px;
-  }
-
-  .retreat-text p {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 12px;
-  }
   .retreat-section {
-    padding: 25px 0 60px;
+    padding: 25px 0 50px;
   }
 
   .retreat-photo {
     overflow: visible;
+  }
+
+  .retreat-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .retreat-text {
+    position: static;
+    padding: 24px 20px;
+    color: var(--ink);
+    background: var(--paper-dark);
+  }
+
+  .retreat-text p {
+    font-size: 14px;
+    line-height: 1.55;
+    margin-bottom: 14px;
   }
 }
 
