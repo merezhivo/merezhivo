@@ -1430,13 +1430,6 @@ h1 em, h2 em, h3 em {
   }
 }
 
-.why-photo h2 {
-  font-family: var(--serif);
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: .02em;
-}
-
 .why-content-section {
   padding-top: 15px;
 }
