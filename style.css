@@ -1143,3 +1143,64 @@ h1 em, h2 em, h3 em {
     line-height: 1.7;
   }
 }
+
+/* OUR TOOLS — centered */
+[data-i18n="toolsPhotoTitle"] {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center logo — responsive positioning */
+.logo-center {
+  display: block;
+  position: relative;
+  left: auto;
+  right: auto;
+  transform: none;
+  width: min(70vw, 520px);
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Photo 2 — full viewport width */
+img[src="assets/photo/2.jpg"] {
+  display: block;
+  width: 100vw;
+  max-width: none;
+  height: auto;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  object-fit: contain;
+}
+
+/* Remove unwanted gradients */
+.player-controls-background {
+  background: none !important;
+  background-image: none !important;
+}
+
+.player-controls-background::before,
+.player-controls-background::after {
+  content: none !important;
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .logo-center {
+    width: 85vw;
+    max-width: 100%;
+    margin: 0 auto;
+    left: auto;
+    transform: none;
+  }
+
+  img[src="assets/photo/2.jpg"] {
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+  }
+}
