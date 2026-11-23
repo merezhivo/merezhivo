@@ -1155,28 +1155,27 @@ h1 em, h2 em, h3 em {
 
 .logo-center {
   display: block;
-  position: relative;
+  position: absolute;
   width: min(52vw, 340px);
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
-  left: 0;
+  top: 50%;
+  left: 50%;
   right: auto;
-  transform: none;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  z-index: 5;
 }
 
 @media (max-width: 850px) {
   .logo-center {
     width: min(75vw, 340px);
-    left: 0;
   }
 }
 
 @media (max-width: 560px) {
   .logo-center {
     width: min(78vw, 300px);
-    max-width: 100%;
-    left: 0;
   }
 }
 
