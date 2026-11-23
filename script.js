@@ -69,6 +69,8 @@ const translations = {
     whyTextTwo: "Це непроста робота, і її дуже багато: часто без вихідних, нерідко на волонтерських засадах, при організаціях. Багато хто не може вирватися навіть на кілька днів.",
     whyTextThree: "Така професія зараз потребує величезних ресурсів і підтримки. Проте вона лишається в тіні, бо поруч завжди є наче важливіші проблеми. А насправді на плечах цих фахівчинь тримається дуже багато.",
     whyTextFour: "Тому їм самим потрібен простір, де можна відновитися: поговорити з тими, хто розуміє, поділитися болем, просто помовчати. Відчути опору і знати, що ти потрібна й важлива, навіть коли нічого не робиш.",
+    retreatTextOne: "Кожен ретрит потроху повертає чутливість і сили. Він дає змогу прожити важкий період у підтримувальному оточенні й не залишатися з цим наодинці. Навіть коротка поїздка допомагає берегти фізичне та психічне здоров'я.",
+    retreatTextTwo: "Для тих, хто залишився в країні й проживає війну зсередини, такі простори особливо важливі."
   },
 
   en: {
@@ -141,6 +143,8 @@ const translations = {
     whyTextTwo: "This work is demanding, and there is so much of it: often without days off, frequently on a volunteer basis or through organisations. Many cannot even take a few days away.",
     whyTextThree: "This profession requires enormous resources and support right now. Yet it often remains in the shadows, because there always seem to be more urgent problems. In reality, so much rests on the shoulders of these professionals.",
     whyTextFour: "That is why they need a space of their own to recover: to talk with people who understand, share their pain, or simply sit in silence. To feel supported and know that they are needed and valued, even when they are doing nothing.",
+    retreatTextOne: "Each retreat gradually helps restore sensitivity and strength. It offers a chance to move through a difficult period in a supportive environment, without having to face it alone. Even a short stay can help protect both physical and mental health.",
+    retreatTextTwo: "For those who have stayed in the country and experience the war firsthand, spaces like these are especially important.",
   },
 
   fi: {
@@ -213,6 +217,8 @@ const translations = {
     whyTextTwo: "Työ on vaativaa, ja sitä on valtavasti: usein ilman vapaapäiviä, monesti vapaaehtoispohjalta tai järjestöjen kautta. Moni ei pääse irrottautumaan edes muutamaksi päiväksi.",
     whyTextThree: "Tämä ammatti vaatii juuri nyt valtavasti voimavaroja ja tukea. Silti se jää usein varjoon, koska rinnalla tuntuu aina olevan kiireellisempiä ongelmia. Todellisuudessa näiden ammattilaisten harteilla lepää hyvin paljon.",
     whyTextFour: "Siksi myös he tarvitsevat oman tilan palautumiseen: mahdollisuuden puhua sellaisten ihmisten kanssa, jotka ymmärtävät, jakaa kipua tai olla vain hiljaa. Tuntea saavansa tukea ja tietää olevansa tarpeellinen ja tärkeä, myös silloin kun ei tee mitään.",
+    retreatTextOne: "Jokainen retriitti auttaa vähitellen palauttamaan herkkyyttä ja voimavaroja. Se antaa mahdollisuuden käydä vaikeaa aikaa läpi kannustavassa ympäristössä ilman, että sitä tarvitsee kohdata yksin. Jo lyhytkin irtiotto auttaa vaalimaan fyysistä ja psyykkistä terveyttä.",
+    retreatTextTwo: "Tällaiset tilat ovat erityisen tärkeitä niille, jotka ovat jääneet maahan ja kokevat sodan sen keskellä.",
   }
 };
 
