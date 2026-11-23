@@ -986,7 +986,7 @@ h1 em, h2 em, h3 em {
       rgba(25, 27, 24, 0.38) 48%,
       rgba(25, 27, 24, 0.12) 100%
     ),
-    url("1.jpg");
+    url("assets/photo/1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
