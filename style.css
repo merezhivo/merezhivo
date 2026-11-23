@@ -976,3 +976,44 @@ h1 em, h2 em, h3 em {
     grid-row: span 1;
   }
 }
+.hero-background {
+  position: relative;
+  isolation: isolate;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(25, 27, 24, 0.68) 0%,
+      rgba(25, 27, 24, 0.38) 48%,
+      rgba(25, 27, 24, 0.12) 100%
+    ),
+    url("1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* Чтобы содержимое было поверх фонового изображения */
+.hero-background > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-background .hero-description,
+.hero-background .hero-pretitle,
+.hero-background .hero-side-note,
+.hero-background .hero-art-caption,
+.hero-background .hero-topline {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hero-background {
+    background-position: 58% center;
+    background-size: cover;
+  }
+
+  .hero-background .hero-composition {
+    min-width: 0;
+  }
+}
