@@ -1364,15 +1364,15 @@ h1 em, h2 em, h3 em {
 
 .why-photo-text-top {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 0;
   right: 0;
   padding: 45px 8%;
   color: #fff;
   background: linear-gradient(
     to bottom,
-    rgba(41, 42, 37, .85),
-    rgba(41, 42, 37, .35) 65%,
+    rgba(41, 42, 37, .88),
+    rgba(41, 42, 37, .55) 75%,
     transparent
   );
   box-sizing: border-box;
@@ -1380,11 +1380,12 @@ h1 em, h2 em, h3 em {
 }
 
 .why-photo-text p {
-  max-width: 850px;
-  margin: 0 auto 16px;
+  max-width: 1000px;
+  margin: 0 auto 20px;
   font-family: var(--sans);
-  font-size: clamp(17px, 1.2vw, 17px);
-  line-height: 1.75;
+  font-size: clamp(18px, 1.5vw, 21px);
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 .why-photo-text p:last-child {
@@ -1432,13 +1433,16 @@ h1 em, h2 em, h3 em {
   }
 
   .why-photo-text-top {
-    padding: 22px 20px;
+    top: 4%;
+    padding: 20px 20px;
   }
 
   .why-photo-text p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
+    margin-bottom: 12px;
   }
+}
 
   .why-content-bottom {
     margin: 30px 20px 0;
