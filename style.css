@@ -1392,15 +1392,28 @@ h1 em, h2 em, h3 em {
 }
 
 .why-content-bottom {
-  max-width: 780px;
-  margin: 55px auto 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 45px 8%;
+  color: #fff;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to top,
+    rgba(41, 42, 37, .9),
+    rgba(41, 42, 37, .4) 75%,
+    transparent
+  );
+  z-index: 2;
 }
 
 .why-content-bottom p {
-  font-size: 15px;
-  line-height: 1.85;
-  color: #625f53;
-  margin: 0 0 20px;
+  max-width: 850px;
+  margin: 0 auto 16px;
+  font-family: var(--sans);
+  font-size: clamp(14px, 1.2vw, 17px);
+  line-height: 1.75;
 }
 
 .why-content-bottom p:last-child {
