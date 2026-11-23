@@ -826,11 +826,12 @@ h1 em, h2 em, h3 em {
 .logo-hero {
   position: relative;
   z-index: 3;
-  width: min(100%, 430px);
+  width: 280px;
   aspect-ratio: 1;
   transform: none;
   mix-blend-mode: normal;
   flex-shrink: 0;
+  margin: 0 auto;
 }
 
 .logo-hero img {
