@@ -1211,14 +1211,13 @@ h1 em, h2 em, h3 em {
 
 .practices-section {
   width: 100%;
-  padding: 70px 0 100px;
+  padding: 0;
 }
 
 .practices-photo {
   position: relative;
   width: 100%;
   overflow: hidden;
-  background: #d8d1c2;
 }
 
 .practices-photo > img {
@@ -1227,61 +1226,60 @@ h1 em, h2 em, h3 em {
   height: auto;
 }
 
-/* Text over the right side of the photo */
-
 .practices-list {
   position: absolute;
   top: 50%;
-  right: 12%;
+  right: 7%;
   transform: translateY(-50%);
-  width: min(38%, 490px);
+  width: 34%;
+  max-width: 480px;
+  box-sizing: border-box;
   color: #fff;
   z-index: 2;
 }
 
 .practices-list h2 {
+  margin: 0 0 20px;
   font-family: var(--serif);
-  font-size: clamp(30px, 4vw, 54px);
+  font-size: clamp(25px, 3vw, 42px);
   font-weight: 500;
-  margin: 0 0 28px;
+  line-height: 1.15;
 }
 
 .practices-list ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .practices-list li {
-  padding: 11px 0;
-  border-bottom: 1px solid rgba(255,255,255,.4);
-  font-size: clamp(12px, 1.15vw, 16px);
-  line-height: 1.45;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+  font-family: var(--sans);
+  font-size: clamp(12px, 1.05vw, 15px);
+  line-height: 1.35;
 }
 
-/* Mobile */
+/* MOBILE */
 
 @media (max-width: 700px) {
-  .practices-section {
-    padding: 45px 0 65px;
-  }
-
   .practices-list {
-    right: 4%;
-    width: 48%;
+    right: 5%;
+    width: 43%;
   }
 
   .practices-list h2 {
-    font-size: clamp(20px, 5vw, 30px);
-    margin-bottom: 12px;
+    font-size: clamp(17px, 4vw, 24px);
+    margin-bottom: 10px;
   }
 
   .practices-list li {
-    padding: 5px 0;
-    font-size: clamp(9px, 2.5vw, 12px);
+    font-size: clamp(9px, 2.1vw, 12px);
     line-height: 1.25;
+    padding: 5px 0;
   }
 }
+
 
 .tools-about-link {
   display: inline-flex;
