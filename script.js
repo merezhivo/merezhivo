@@ -63,7 +63,8 @@ const translations = {
     practiceSound: "Саунд-хілінг",
     practiceAroma: "Ароматерапія й акупунктура",
     practiceNature: "Природа та відновлення",
-    practiceLectures: "Лекції"
+    practiceLectures: "Лекції",
+    whyTitle: "ЧОМУ ЦЕ ВАЖЛИВО",
   },
 
   en: {
@@ -131,6 +132,7 @@ const translations = {
     practiceAroma: "Aromatherapy and acupuncture",
     practiceNature: "Nature and restoration",
     practiceLectures: "Lectures",
+    whyTitle: "WHY IS THIS IMPORTANT"
   },
 
   fi: {
@@ -198,6 +200,7 @@ const translations = {
     practiceAroma: "Aromaterapia ja akupunktio",
     practiceNature: "Luonto ja palautuminen",
     practiceLectures: "Luennot",
+    whyTitle: "MIKSI TÄMÄ ON TÄRKEÄÄ"
   }
 };
 
