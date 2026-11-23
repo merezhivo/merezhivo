@@ -1147,11 +1147,11 @@ h1 em, h2 em, h3 em {
 .logo-center {
   display: block;
   position: relative;
-  width: min(78vw, 520px);
+  width: min(62vw, 400px);
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-  left: auto;
+  left: -45px;
   right: auto;
   transform: none;
 }
@@ -1162,21 +1162,18 @@ h1 em, h2 em, h3 em {
     width: 100%;
     max-width: 390px;
     transform: none;
-  }
-
+  } 
   .logo-center {
     width: min(85vw, 390px);
+    left: 0;
   }
 }
 
 @media (max-width: 560px) {
-  .hero-logo-wrap {
-    max-width: 100%;
-  }
-
   .logo-center {
     width: 85vw;
     max-width: 340px;
+    left: 0;
   }
 }
 
