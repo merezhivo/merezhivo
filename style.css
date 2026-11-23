@@ -1342,7 +1342,7 @@ h1 em, h2 em, h3 em {
     font-size: clamp(25px, 7vw, 38px);
   }
 }
-/* WHY CONTENT */
+
 
 /* WHY CONTENT */
 
@@ -1368,13 +1368,14 @@ h1 em, h2 em, h3 em {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
-  padding: 70px 8% 45px;
+  top: 0;
+  padding: 50px 8% 70px;
   color: #fff;
   background: linear-gradient(
     to bottom,
-    transparent,
-    rgba(41, 42, 37, .82)
+    rgba(41, 42, 37, .85) 0%,
+    rgba(41, 42, 37, .35) 65%,
+    transparent 100%
   );
   box-sizing: border-box;
 }
