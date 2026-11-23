@@ -46,7 +46,13 @@ const translations = {
     foundationLabel: "ЗА ПІДТРИМКИ",
     foundationText: "Фінляндія. Інформація про фонд, його роль у проєкті та офіційні контакти будуть додані після фінального узгодження.",
     footerPlace: "УКРАЇНА · ФІНЛЯНДІЯ",
-    backTop: "НАГОРУ ↑"
+    backTop: "НАГОРУ ↑",
+    toolsPhotoTitle: "OUR TOOLS",
+    toolsLabel: "НАШІ ІНСТРУМЕНТИ",
+    toolsTitle: "Наші інструменти",
+    toolsTextOne: "Мереживо унікальне завдяки тим, хто в ньому зібрався. У нашій спільноті багато фахівчинь, і кожна має свою сильну практику: тілесна терапія, психологія, робота з нервовою системою, малюнок, голос, музика.",
+    toolsTextTwo: "Тому кожна зустріч і кожен ретрит складаються в особливий набір інструментів, який більше ніде не повториться.",
+    toolsTextThree: "І в цьому наша особливість: жінка тут не лише віддає, а й отримує турботу. Ті, хто звик підтримувати інших, відновлюються тими самими практиками, якими діляться самі."
   },
 
   en: {
@@ -96,7 +102,13 @@ const translations = {
     foundationLabel: "SUPPORTED BY",
     foundationText: "Finland. Information about the foundation, its role in the project and official contacts will be added after confirmation.",
     footerPlace: "UKRAINE · FINLAND",
-    backTop: "BACK TO TOP ↑"
+    backTop: "BACK TO TOP ↑",
+    toolsPhotoTitle: "OUR TOOLS",
+    toolsLabel: "OUR APPROACH",
+    toolsTitle: "Our tools",
+    toolsTextOne: "Merezhivo is unique because of the women who come together within it. Our community brings together practitioners with different areas of expertise: bodywork, psychology, nervous system support, drawing, voice and music.",
+    toolsTextTwo: "Each gathering and retreat therefore becomes a unique combination of tools and practices that cannot be replicated elsewhere.",
+    toolsTextThree: "That is what makes us different: women here don't only give care — they receive it, too. Those who are used to supporting others can restore themselves through the very practices they share."
   },
 
   fi: {
@@ -146,7 +158,13 @@ const translations = {
     foundationLabel: "TUKIJANA",
     foundationText: "Suomi. Säätiön tiedot, sen rooli hankkeessa ja viralliset yhteystiedot lisätään vahvistamisen jälkeen.",
     footerPlace: "UKRAINA · SUOMI",
-    backTop: "TAKAISIN YLÖS ↑"
+    backTop: "TAKAISIN YLÖS ↑",
+    toolsPhotoTitle: "TYÖKALUMME",
+    toolsLabel: "LÄHESTYMISTAPAMME",
+    toolsTitle: "Työkalumme",
+    toolsTextOne: "Merezhivosta tekee ainutlaatuisen juuri se, ketkä ovat kokoontuneet sen ympärille. Yhteisössämme on eri alojen ammattilaisia, joilla jokaisella on oma vahva osaamisensa: kehollinen terapia, psykologia, hermoston tukeminen, piirtäminen, ääni ja musiikki.",
+    toolsTextTwo: "Siksi jokaisesta tapaamisesta ja retriitistä muodostuu ainutlaatuinen yhdistelmä työkaluja ja harjoituksia, jota ei voi toistaa samanlaisena muualla.",
+    toolsTextThree: "Tässä on meidän erityisyytemme: nainen ei ole täällä vain antamassa, vaan myös vastaanottamassa huolenpitoa. Muita tukemaan tottuneet voivat palautua samojen harjoitusten avulla, joita he itse jakavat muille."
   }
 };
 
