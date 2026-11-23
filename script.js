@@ -65,6 +65,10 @@ const translations = {
     practiceNature: "Природа та відновлення",
     practiceLectures: "Лекції",
     whyTitle: "ЧОМУ ЦЕ ВАЖЛИВО",
+    whyTextOne: "Українські психологині та терапевтки різних напрямів працюють там, де йдуть обстріли. Вони підтримують мешканців міст під ударами, ветеранів, родини, які втратили близьких на війні.",
+    whyTextTwo: "Це непроста робота, і її дуже багато: часто без вихідних, нерідко на волонтерських засадах, при організаціях. Багато хто не може вирватися навіть на кілька днів.",
+    whyTextThree: "Така професія зараз потребує величезних ресурсів і підтримки. Проте вона лишається в тіні, бо поруч завжди є наче важливіші проблеми. А насправді на плечах цих фахівчинь тримається дуже багато.",
+    whyTextFour: "Тому їм самим потрібен простір, де можна відновитися: поговорити з тими, хто розуміє, поділитися болем, просто помовчати. Відчути опору і знати, що ти потрібна й важлива, навіть коли нічого не робиш.",
   },
 
   en: {
@@ -132,7 +136,11 @@ const translations = {
     practiceAroma: "Aromatherapy and acupuncture",
     practiceNature: "Nature and restoration",
     practiceLectures: "Lectures",
-    whyTitle: "WHY IS THIS IMPORTANT"
+    whyTitle: "WHY IS THIS IMPORTANT",
+    whyTextOne: "Ukrainian psychologists and therapists from different disciplines work in areas under attack. They support residents of cities facing shelling, veterans, and families who have lost loved ones in the war.",
+    whyTextTwo: "This work is demanding, and there is so much of it: often without days off, frequently on a volunteer basis or through organisations. Many cannot even take a few days away.",
+    whyTextThree: "This profession requires enormous resources and support right now. Yet it often remains in the shadows, because there always seem to be more urgent problems. In reality, so much rests on the shoulders of these professionals.",
+    whyTextFour: "That is why they need a space of their own to recover: to talk with people who understand, share their pain, or simply sit in silence. To feel supported and know that they are needed and valued, even when they are doing nothing.",
   },
 
   fi: {
@@ -200,7 +208,11 @@ const translations = {
     practiceAroma: "Aromaterapia ja akupunktio",
     practiceNature: "Luonto ja palautuminen",
     practiceLectures: "Luennot",
-    whyTitle: "MIKSI TÄMÄ ON TÄRKEÄÄ"
+    whyTitle: "MIKSI TÄMÄ ON TÄRKEÄÄ",
+    whyTextOne: "Ukrainalaiset psykologit ja eri suuntauksia edustavat terapeutit työskentelevät alueilla, joihin kohdistuu pommituksia. He tukevat iskujen kohteeksi joutuneiden kaupunkien asukkaita, veteraaneja ja sodassa läheisensä menettäneitä perheitä.",
+    whyTextTwo: "Työ on vaativaa, ja sitä on valtavasti: usein ilman vapaapäiviä, monesti vapaaehtoispohjalta tai järjestöjen kautta. Moni ei pääse irrottautumaan edes muutamaksi päiväksi.",
+    whyTextThree: "Tämä ammatti vaatii juuri nyt valtavasti voimavaroja ja tukea. Silti se jää usein varjoon, koska rinnalla tuntuu aina olevan kiireellisempiä ongelmia. Todellisuudessa näiden ammattilaisten harteilla lepää hyvin paljon.",
+    whyTextFour: "Siksi myös he tarvitsevat oman tilan palautumiseen: mahdollisuuden puhua sellaisten ihmisten kanssa, jotka ymmärtävät, jakaa kipua tai olla vain hiljaa. Tuntea saavansa tukea ja tietää olevansa tarpeellinen ja tärkeä, myös silloin kun ei tee mitään.",
   }
 };
 
