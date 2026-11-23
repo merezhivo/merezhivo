@@ -840,13 +840,13 @@ h1 em, h2 em, h3 em {
   min-height: 0;
   max-width: 480px;
   width: 100%;
-  justify-self: end;
+  justify-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
-  transform: translateX(-210px);
+  transform: none;
 }
 
 .hero-logo-wrap .hero-side-note,
@@ -1019,59 +1019,69 @@ h1 em, h2 em, h3 em {
   }
 }
 
+
 /* OUR TOOLS */
 
 .tools-section {
   width: 100%;
   padding: 70px 0 110px;
+  overflow: hidden;
 }
 
+/* Full-width photo */
 .tools-photo {
   position: relative;
-  width: min(100% - 80px, 1320px);
-  height: clamp(360px, 55vw, 650px);
-  margin: 0 auto;
+  width: 100vw;
+  max-width: none;
+  height: auto;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   overflow: hidden;
-  background: #d8d1c2;
+  background: transparent;
 }
 
 .tools-photo img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
   object-position: center;
 }
 
+/* Remove photo gradient */
 .tools-photo::after {
-  content: "";
+  display: none;
+  content: none;
+}
+
+/* OUR TOOLS — centered over the photo */
+.tools-photo-title,
+.tools-photo [data-i18n="toolsPhotoTitle"] {
   position: absolute;
-  inset: 35% 0 0;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(25, 27, 24, 0.65)
-  );
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 8%;
+  width: 100%;
+  margin: 0;
+  padding: 0 16px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: clamp(42px, 8vw, 104px);
+  line-height: .95;
+  letter-spacing: -.055em;
+  font-weight: 500;
   pointer-events: none;
 }
 
-.tools-photo-title {
-  position: absolute;
-  z-index: 2;
-  left: 6%;
-  bottom: 8%;
-  color: #fff;
-  font-size: clamp(42px, 8vw, 104px);
-  line-height: 0.95;
-  letter-spacing: -0.055em;
-  font-weight: 500;
-}
-
+/* Text below the photo */
 .tools-content {
   width: min(100% - 80px, 1120px);
   margin: 75px auto 0;
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns: .8fr 1.2fr;
   gap: 70px;
   align-items: start;
 }
@@ -1080,16 +1090,16 @@ h1 em, h2 em, h3 em {
   display: block;
   margin-bottom: 18px;
   font-size: 11px;
-  letter-spacing: 0.16em;
+  letter-spacing: .16em;
   text-transform: uppercase;
-  opacity: 0.65;
+  opacity: .65;
 }
 
 .tools-content-heading h2 {
   margin: 0;
   font-size: clamp(36px, 5vw, 64px);
   line-height: 1;
-  letter-spacing: -0.045em;
+  letter-spacing: -.045em;
   font-weight: 500;
 }
 
@@ -1107,24 +1117,29 @@ h1 em, h2 em, h3 em {
   margin-bottom: 0;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .tools-section {
     padding: 45px 0 70px;
   }
 
   .tools-photo {
-    width: calc(100% - 32px);
-    height: 420px;
+    width: 100vw;
+    height: auto;
   }
 
   .tools-photo img {
-    object-position: center;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
-  .tools-photo-title {
-    left: 24px;
-    bottom: 28px;
-    font-size: clamp(42px, 12vw, 68px);
+  .tools-photo-title,
+  .tools-photo [data-i18n="toolsPhotoTitle"] {
+    left: 0;
+    right: 0;
+    bottom: 6%;
+    font-size: clamp(32px, 9vw, 58px);
   }
 
   .tools-content {
@@ -1144,63 +1159,72 @@ h1 em, h2 em, h3 em {
   }
 }
 
-/* OUR TOOLS — centered */
-[data-i18n="toolsPhotoTitle"] {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Center logo — responsive positioning */
 .logo-center {
   display: block;
   position: relative;
-  left: auto;
-  right: auto;
-  transform: none;
-  width: min(70vw, 520px);
+  width: min(78vw, 520px);
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+  left: auto;
+  right: auto;
+  transform: none;
 }
 
-/* Photo 2 — full viewport width */
-img[src="assets/photo/2.jpg"] {
-  display: block;
-  width: 100vw;
-  max-width: none;
-  height: auto;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  object-fit: contain;
-}
-
-/* Remove unwanted gradients */
-.player-controls-background {
-  background: none !important;
-  background-image: none !important;
-}
-
-.player-controls-background::before,
-.player-controls-background::after {
-  content: none !important;
-  display: none !important;
-}
-
-@media (max-width: 768px) {
-  .logo-center {
-    width: 85vw;
-    max-width: 100%;
-    margin: 0 auto;
-    left: auto;
+@media (max-width: 850px) {
+  .hero-logo-wrap {
+    justify-self: center;
+    width: 100%;
+    max-width: 390px;
     transform: none;
   }
 
-  img[src="assets/photo/2.jpg"] {
-    width: 100vw;
-    height: auto;
-    object-fit: contain;
+  .logo-center {
+    width: min(85vw, 390px);
   }
+}
+
+@media (max-width: 560px) {
+  .hero-logo-wrap {
+    max-width: 100%;
+  }
+
+  .logo-center {
+    width: 85vw;
+    max-width: 340px;
+  }
+}
+
+.story-main-media2,
+.video-frame {
+  width: min(100% - 32px, 1080px);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.story-main-media2 iframe,
+.video-frame iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .story-main-media2,
+  .video-frame {
+    width: calc(100% - 32px);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+  }
+}
+
+html,
+body {
+  overflow-x: clip;
 }
