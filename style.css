@@ -1232,7 +1232,7 @@ h1 em, h2 em, h3 em {
 .practices-list {
   position: absolute;
   top: 50%;
-  right: 6%;
+  right: 12%;
   transform: translateY(-50%);
   width: min(38%, 490px);
   color: #fff;
