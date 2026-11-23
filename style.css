@@ -1392,23 +1392,29 @@ h1 em, h2 em, h3 em {
   right: 0;
   bottom: 0;
   padding: 45px 8%;
-  color: #fff;
+  color: #292a25;
   box-sizing: border-box;
+  background: linear-gradient(
+    to top,
+    rgba(245, 241, 231, .96),
+    rgba(245, 241, 231, .82) 75%,
+    transparent
+  );
   z-index: 2;
 }
 
 .why-content-bottom p {
-  max-width: 850px;
-  margin: 0 auto 16px;
+  max-width: 1000px;
+  margin: 0 auto 20px;
   font-family: var(--sans);
-  font-size: clamp(14px, 1.2vw, 17px);
-  line-height: 1.75;
+  font-size: clamp(18px, 1.5vw, 21px);
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 .why-content-bottom p:last-child {
   margin-bottom: 0;
 }
-
 /* Mobile */
 
 @media (max-width: 700px) {
@@ -1433,14 +1439,14 @@ h1 em, h2 em, h3 em {
 }
 
   .why-content-bottom {
-    margin: 30px 20px 0;
+    padding: 20px;
   }
-
+  
   .why-content-bottom p {
-    font-size: 17px;
-    line-height: 1.75;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
   }
-}
 
 /* RETREAT SECTION */
 
