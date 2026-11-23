@@ -52,7 +52,18 @@ const translations = {
     toolsTitle: "Наші інструменти",
     toolsTextOne: "Мереживо унікальне завдяки тим, хто в ньому зібрався. У нашій спільноті багато фахівчинь, і кожна має свою сильну практику: тілесна терапія, психологія, робота з нервовою системою, малюнок, голос, музика.",
     toolsTextTwo: "Тому кожна зустріч і кожен ретрит складаються в особливий набір інструментів, який більше ніде не повториться.",
-    toolsTextThree: "І в цьому наша особливість: жінка тут не лише віддає, а й отримує турботу. Ті, хто звик підтримувати інших, відновлюються тими самими практиками, якими діляться самі."
+    toolsTextThree: "І в цьому наша особливість: жінка тут не лише віддає, а й отримує турботу. Ті, хто звик підтримувати інших, відновлюються тими самими практиками, якими діляться самі.",
+    practicesTitle: "Наші практики",
+    practiceTaiChi: "Тай-чі, йога, цигун",
+    practiceDance: "Танець і контактна імпровізація",
+    practiceArt: "Арт-терапія",
+    practiceManual: "Мануальна й краніосакральна терапія, масаж, остеопатія",
+    practicePsychotherapy: "Психотерапія",
+    practiceVoice: "Голос і спів",
+    practiceSound: "Саунд-хілінг",
+    practiceAroma: "Ароматерапія й акупунктура",
+    practiceNature: "Природа та відновлення",
+    practiceLectures: "Лекції"
   },
 
   en: {
@@ -108,7 +119,18 @@ const translations = {
     toolsTitle: "Our tools",
     toolsTextOne: "Merezhivo is unique because of the women who come together within it. Our community brings together practitioners with different areas of expertise: bodywork, psychology, nervous system support, drawing, voice and music.",
     toolsTextTwo: "Each gathering and retreat therefore becomes a unique combination of tools and practices that cannot be replicated elsewhere.",
-    toolsTextThree: "That is what makes us different: women here don't only give care — they receive it, too. Those who are used to supporting others can restore themselves through the very practices they share."
+    toolsTextThree: "That is what makes us different: women here don't only give care — they receive it, too. Those who are used to supporting others can restore themselves through the very practices they share.",
+    practicesTitle: "Our practices",
+    practiceTaiChi: "Tai chi, yoga, qigong",
+    practiceDance: "Dance and contact improvisation",
+    practiceArt: "Art therapy",
+    practiceManual: "Manual and craniosacral therapy, massage, osteopathy",
+    practicePsychotherapy: "Psychotherapy",
+    practiceVoice: "Voice and singing",
+    practiceSound: "Sound healing",
+    practiceAroma: "Aromatherapy and acupuncture",
+    practiceNature: "Nature and restoration",
+    practiceLectures: "Lectures",
   },
 
   fi: {
@@ -164,7 +186,18 @@ const translations = {
     toolsTitle: "Työkalumme",
     toolsTextOne: "Merezhivosta tekee ainutlaatuisen juuri se, ketkä ovat kokoontuneet sen ympärille. Yhteisössämme on eri alojen ammattilaisia, joilla jokaisella on oma vahva osaamisensa: kehollinen terapia, psykologia, hermoston tukeminen, piirtäminen, ääni ja musiikki.",
     toolsTextTwo: "Siksi jokaisesta tapaamisesta ja retriitistä muodostuu ainutlaatuinen yhdistelmä työkaluja ja harjoituksia, jota ei voi toistaa samanlaisena muualla.",
-    toolsTextThree: "Tässä on meidän erityisyytemme: nainen ei ole täällä vain antamassa, vaan myös vastaanottamassa huolenpitoa. Muita tukemaan tottuneet voivat palautua samojen harjoitusten avulla, joita he itse jakavat muille."
+    toolsTextThree: "Tässä on meidän erityisyytemme: nainen ei ole täällä vain antamassa, vaan myös vastaanottamassa huolenpitoa. Muita tukemaan tottuneet voivat palautua samojen harjoitusten avulla, joita he itse jakavat muille.",
+    practicesTitle: "Harjoituksemme",
+    practiceTaiChi: "Tai chi, jooga ja qigong",
+    practiceDance: "Tanssi ja kontakt improvisaatio",
+    practiceArt: "Taideterapia",
+    practiceManual: "Manuaalinen ja kraniosakraalinen terapia, hieronta ja osteopatia",
+    practicePsychotherapy: "Psykoterapia",
+    practiceVoice: "Ääni ja laulaminen",
+    practiceSound: "Ääniterapia",
+    practiceAroma: "Aromaterapia ja akupunktio",
+    practiceNature: "Luonto ja palautuminen",
+    practiceLectures: "Luennot",
   }
 };
 
