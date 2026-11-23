@@ -846,6 +846,7 @@ h1 em, h2 em, h3 em {
   align-items: center;
   justify-content: center;
   position: relative;
+  transform: translateX(-50px);
 }
 
 .hero-logo-wrap .hero-side-note,
