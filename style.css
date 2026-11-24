@@ -1791,3 +1791,25 @@ h1 em, h2 em, h3 em {
     padding-top: 55px;
   }
 }
+
+/* --- Hero logo: move into the empty dark space left of the woman, keep it readable --- */
+@media (min-width: 851px) {
+  .hero-composition .hero-logo-wrap {
+    transform: translateX(calc(-60px - 12vw));
+  }
+}
+
+@media (min-width: 1250px) {
+  .hero-composition .hero-logo-wrap {
+    transform: translateX(calc(-60px - 16vw));
+  }
+}
+
+/* on the dark photo the olive lettering/tree vanish: lift them to warm cream */
+.hero-background .logo-hero .logo-center {
+  filter: brightness(0) invert(.93) sepia(.25) drop-shadow(0 0 6px rgba(0, 0, 0, .35));
+}
+
+.hero-background .logo-hero .logo-ring {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, .45));
+}
