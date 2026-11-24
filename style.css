@@ -1495,20 +1495,15 @@ h1 em, h2 em, h3 em {
   height: auto;
 }
 
-.retreat-text {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+..retreat-text {
+  position: relative;
+  left: auto;
+  right: auto;
+  bottom: auto;
   padding: 45px 8%;
-  color: #292a25;
+  color: var(--ink);
   box-sizing: border-box;
-  background: linear-gradient(
-    to top,
-    rgba(245, 241, 231, .96),
-    rgba(245, 241, 231, .82) 75%,
-    transparent
-  );
+  background: var(--paper-dark);
   z-index: 2;
 }
 
@@ -1541,11 +1536,8 @@ h1 em, h2 em, h3 em {
   }
 
   .retreat-text {
-    position: static;
-    padding: 24px 20px;
-    color: var(--ink);
-    background: var(--paper-dark);
-  }
+  padding: 24px 20px;
+}
 
   .retreat-text p {
     font-size: 14px;
