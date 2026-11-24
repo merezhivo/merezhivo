@@ -142,6 +142,54 @@ button { font: inherit; }
   width: 100%;
   margin: 65px auto 70px;
 }
+.about-text {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 65px 8% 85px;
+  color: var(--ink);
+  box-sizing: border-box;
+}
+
+.about-text h2 {
+  max-width: 850px;
+  margin: 0 0 32px;
+  font-family: var(--sans);
+  font-size: clamp(28px, 3.2vw, 44px);
+  line-height: 1.12;
+  font-weight: 500;
+  letter-spacing: -.04em;
+}
+
+.about-text p {
+  max-width: 900px;
+  margin: 0 auto 22px;
+  font-family: var(--sans);
+  font-size: clamp(16px, 1.35vw, 19px);
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.about-text-highlight {
+  padding-top: 12px;
+  font-weight: 600 !important;
+}
+
+@media (max-width: 700px) {
+  .about-text {
+    padding: 35px 20px 50px;
+  }
+
+  .about-text h2 {
+    font-size: 27px;
+    margin-bottom: 22px;
+  }
+
+  .about-text p {
+    font-size: 14px;
+    line-height: 1.55;
+    margin-bottom: 16px;
+  }
+}
 
 .hero-title-wrap { max-width: 590px; }
 
