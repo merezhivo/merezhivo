@@ -1620,41 +1620,23 @@ h1 em, h2 em, h3 em {
   margin: 0 0 25px;
 }
 
-.safe-home-offer {
-  padding: 75px 0;
-  border-top: 1px solid rgba(40, 40, 35, 0.2);
-  border-bottom: 1px solid rgba(40, 40, 35, 0.2);
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 80px;
-}
-
-.safe-home-offer h3,
-.safe-home-fundraising h3,
-.safe-home-contact h3 {
-  font-size: clamp(38px, 5vw, 64px);
-  line-height: 1;
-  letter-spacing: -0.05em;
-  font-weight: 500;
-  margin: 25px 0;
-}
-
-.safe-home-offer-content ul {
-  list-style: none;
-  padding: 0;
-  margin: 35px 0;
-}
-
 .safe-home-offer-content li {
-  padding: 15px 0;
+  position: relative;
+  padding: 15px 0 15px 26px;
   border-bottom: 1px solid rgba(40, 40, 35, 0.2);
   font-size: 18px;
 }
 
 .safe-home-offer-content li::before {
-  content: "↗";
-  margin-right: 14px;
-  color: #a8793e;
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-top: 1.5px solid #a8793e;
+  border-right: 1.5px solid #a8793e;
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .safe-home-free {
