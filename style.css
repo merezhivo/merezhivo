@@ -1548,7 +1548,7 @@ h1 em, h2 em, h3 em {
   left: auto;
   right: auto;
   bottom: auto;
-  padding: 45px 8%;
+  padding: 75px 8% 45px;
   color: var(--ink);
   box-sizing: border-box;
   background: var(--paper-dark);
