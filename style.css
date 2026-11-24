@@ -891,8 +891,8 @@ h1 em, h2 em, h3 em {
   }
 }
 @media (min-width: 851px) {
-  .hero-logo-wrap {
-    transform: translateX(-30px);
+  .hero-composition .hero-logo-wrap {
+    transform: translateX(-60px);
   }
 }
 
