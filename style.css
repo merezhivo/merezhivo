@@ -1850,10 +1850,25 @@ h1 em, h2 em, h3 em {
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, .45));
 }
 
+.footer-foundation {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
 .foundation-logo {
   display: block;
-  width: 150px;
+  width: 76px;
   height: auto;
   object-fit: contain;
-  margin: 22px 0;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.footer-foundation-text {
+  min-width: 0;
+}
+
+.footer-foundation-text h3 {
+  margin-top: 7px;
 }
