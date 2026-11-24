@@ -1620,11 +1620,23 @@ h1 em, h2 em, h3 em {
   margin: 0 0 25px;
 }
 
+.safe-home-offer-content ul {
+  list-style: none !important;
+  padding: 0;
+  margin: 35px 0;
+}
+
 .safe-home-offer-content li {
   position: relative;
+  display: block;
+  list-style: none !important;
   padding: 15px 0 15px 26px;
   border-bottom: 1px solid rgba(40, 40, 35, 0.2);
   font-size: 18px;
+}
+
+.safe-home-offer-content li::marker {
+  content: "";
 }
 
 .safe-home-offer-content li::before {
@@ -1638,7 +1650,6 @@ h1 em, h2 em, h3 em {
   border-right: 1.5px solid #a8793e;
   transform: translateY(-50%) rotate(45deg);
 }
-
 .safe-home-free {
   font-size: 27px !important;
   color: #a8793e;
