@@ -1253,11 +1253,17 @@ h1 em, h2 em, h3 em {
 }
 
 .practices-list li {
-  padding: 9px 0;
+  position: relative;
+  border-bottom: none;
+}
+
+.practices-list li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -12px;
+  right: 0;
   border-bottom: 1px solid rgba(255, 255, 255, .4);
-  font-family: var(--sans);
-  font-size: clamp(12px, 1.05vw, 15px);
-  line-height: 1.35;
 }
 
 /* MOBILE */
