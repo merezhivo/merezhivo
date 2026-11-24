@@ -1543,15 +1543,13 @@ h1 em, h2 em, h3 em {
   height: auto;
 }
 
-..retreat-text {
+.retreat-text {
   position: relative;
-  left: auto;
-  right: auto;
-  bottom: auto;
-  padding: 75px 8% 45px;
+  margin-top: 60px;
+  padding: 0 8% 45px;
   color: var(--ink);
   box-sizing: border-box;
-  background: var(--paper-dark);
+  background: var(--paper);
   z-index: 2;
 }
 
