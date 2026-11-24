@@ -1992,3 +1992,17 @@ h1 em, h2 em, h3 em {
     animation: none;
   }
 }
+
+.gallery-window {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  cursor: grab;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gallery-window::-webkit-scrollbar {
+  display: none;
+}
+
