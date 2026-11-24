@@ -1795,13 +1795,13 @@ h1 em, h2 em, h3 em {
 /* --- Hero logo: move into the empty dark space left of the woman, keep it readable --- */
 @media (min-width: 851px) {
   .hero-composition .hero-logo-wrap {
-    transform: translateX(calc(-60px - 12vw));
+    transform: translateX(calc(-60px - 17vw));
   }
 }
 
 @media (min-width: 1250px) {
   .hero-composition .hero-logo-wrap {
-    transform: translateX(calc(-60px - 16vw));
+    transform: translateX(calc(-60px - 21vw));
   }
 }
 
