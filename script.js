@@ -130,7 +130,7 @@ const translations = {
     practiceAroma: "Aromatherapy and acupuncture",
     practiceNature: "Nature and restoration",
     practiceLectures: "Lectures",
-    whyTitle: "WHY IS THIS <em>IMPORTANT</em>",
+    whyTitle: "Why is this <em>important</em>",
     whyTextOne: "Ukrainian psychologists and therapists from different disciplines work in areas under attack. They support residents of cities facing shelling, veterans, and families who have lost loved ones in the war.",
     whyTextTwo: "This work is demanding, and there is so much of it: often without days off, frequently on a volunteer basis or through organisations. Many cannot even take a few days away.",
     whyTextThree: "This profession requires enormous resources and support right now. Yet it often remains in the shadows, because there always seem to be more urgent problems. In reality, so much rests on the shoulders of these professionals.",
