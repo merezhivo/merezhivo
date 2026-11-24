@@ -1849,3 +1849,11 @@ h1 em, h2 em, h3 em {
 .hero-background .logo-hero .logo-ring {
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, .45));
 }
+
+.foundation-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  margin: 22px 0;
+}
