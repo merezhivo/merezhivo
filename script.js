@@ -114,7 +114,7 @@ const translations = {
     foundationText: "Finland. Information about the foundation, its role in the project and official contacts will be added after confirmation.",
     footerPlace: "UKRAINE · FINLAND",
     backTop: "BACK TO TOP ↑",
-    toolsPhotoTitle: "OUR TOOLS",
+    toolsPhotoTitle: "Our tools",
     toolsTitle: "Our tools",
     toolsTextOne: "Merezhivo is unique because of the women who come together within it. Our community brings together practitioners with different areas of expertise: bodywork, psychology, nervous system support, drawing, voice and music.",
     toolsTextTwo: "Each gathering and retreat therefore becomes a unique combination of tools and practices that cannot be replicated elsewhere.",
