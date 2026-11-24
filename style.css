@@ -2028,3 +2028,49 @@ h1 em, h2 em, h3 em {
   display: none;
 }
 
+/* FOUNDATION LOGO + NAME — HORIZONTAL */
+
+.footer-foundation-brand {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 18px;
+  margin: 14px 0;
+}
+
+.footer-foundation-brand .foundation-logo {
+  display: block;
+  width: 76px;
+  height: auto;
+  flex-shrink: 0;
+  margin: 0 !important;
+}
+
+.footer-foundation-brand h3,
+.footer-foundation-brand .foundation-name {
+  font-family: var(--serif);
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.foundation-name {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .footer-foundation-brand {
+    gap: 13px;
+  }
+
+  .footer-foundation-brand .foundation-logo {
+    width: 58px;
+  }
+
+  .footer-foundation-brand h3,
+  .footer-foundation-brand .foundation-name {
+    font-size: 23px;
+  }
+}
