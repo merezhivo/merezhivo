@@ -1852,8 +1852,15 @@ h1 em, h2 em, h3 em {
 
 .footer-foundation {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
+  gap: 0;
+}
+
+.footer-foundation .small-kicker {
+  color: #b8aa83;
+  display: block;
+  margin-bottom: 12px;
 }
 
 .foundation-logo {
@@ -1861,25 +1868,25 @@ h1 em, h2 em, h3 em {
   width: 76px;
   height: auto;
   object-fit: contain;
-  flex-shrink: 0;
-  margin-top: 4px;
+  margin: 0 0 14px;
 }
 
 .footer-foundation-text {
   min-width: 0;
+  width: 100%;
 }
 
 .footer-foundation-text h3 {
-  margin-top: 7px;
+  margin: 0 0 12px;
+}
+
+.footer-foundation p {
+  margin-top: 0;
 }
 
 @media (max-width: 600px) {
   .foundation-logo {
     width: 58px;
-  }
-
-  .footer-foundation {
-    gap: 13px;
   }
 }
 /* GALLERY */
