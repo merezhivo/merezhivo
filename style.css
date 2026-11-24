@@ -1872,3 +1872,13 @@ h1 em, h2 em, h3 em {
 .footer-foundation-text h3 {
   margin-top: 7px;
 }
+
+@media (max-width: 600px) {
+  .foundation-logo {
+    width: 58px;
+  }
+
+  .footer-foundation {
+    gap: 13px;
+  }
+}
