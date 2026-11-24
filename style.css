@@ -1997,9 +1997,13 @@ h1 em, h2 em, h3 em {
   }
 
   .gallery-track img {
-    width: 78vw;
-    height: 65vw;
-    max-height: 310px;
+    display: block;
+    flex: 0 0 auto;
+    width: clamp(240px, 28vw, 390px);
+    height: clamp(240px, 28vw, 360px);
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    background: var(--paper-dark);
   }
 }
 
