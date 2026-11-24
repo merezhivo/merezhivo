@@ -1616,7 +1616,7 @@ h1 em, h2 em, h3 em {
 }
 
 .safe-home-intro {
-  padding: 100px 0;
+  padding: 65px 0;
   display: grid;
   grid-template-columns: 0.7fr 1.3fr;
   gap: 80px;
