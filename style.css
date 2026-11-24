@@ -890,6 +890,11 @@ h1 em, h2 em, h3 em {
     width: min(76vw, 310px);
   }
 }
+@media (min-width: 851px) {
+  .hero-logo-wrap {
+    transform: translateX(-30px);
+  }
+}
 
 .story-main-media2 {
   width: min(100% - 48px, 1080px);
