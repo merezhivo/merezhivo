@@ -1240,7 +1240,7 @@ h1 em, h2 em, h3 em {
 
 .practices-list h2 {
   margin: 0 0 20px;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(25px, 3vw, 42px);
   font-weight: 500;
   line-height: 1.15;
