@@ -2080,18 +2080,18 @@ h1 em, h2 em, h3 em {
 @media (min-width: 701px) {
   html[lang="fi"] .why-photo-text-top p,
   html[lang="fi"] .why-content-bottom p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 12px;
   }
 
   html[lang="fi"] .why-photo-text-top {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   html[lang="fi"] .why-content-bottom {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
