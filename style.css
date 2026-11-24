@@ -1062,7 +1062,7 @@ h1 em, h2 em, h3 em {
   padding: 0 16px;
   display: block;
   text-align: center;
-  color: #fff;
+  color: #292a25;
   font-size: clamp(42px, 8vw, 104px);
   line-height: .95;
   letter-spacing: -.055em;
