@@ -358,3 +358,68 @@ try {
   window.addEventListener("scroll", start, { passive: true });
   start();
 })();
+
+/* GALLERY AUTO SCROLL */
+
+const galleryWindow = document.querySelector('.gallery-window');
+const galleryTrack = document.querySelector('.gallery-track');
+
+if (galleryWindow && galleryTrack && !galleryTrack.dataset.loopReady) {
+  galleryTrack.dataset.loopReady = 'true';
+
+  const originalImages = Array.from(galleryTrack.children);
+
+  originalImages.forEach((img) => {
+    const clone = img.cloneNode(true);
+    clone.alt = '';
+    clone.setAttribute('aria-hidden', 'true');
+    galleryTrack.appendChild(clone);
+  });
+
+  let position = 0;
+  let lastTime = 0;
+  let paused = false;
+
+  const speed = 28;
+
+  function animateGallery(time) {
+    if (!lastTime) lastTime = time;
+
+    const delta = Math.min(time - lastTime, 40);
+    lastTime = time;
+
+    if (!paused) {
+      position += speed * delta / 1000;
+
+      const loopWidth = galleryTrack.scrollWidth / 2;
+
+      if (position >= loopWidth) {
+        position -= loopWidth;
+      }
+
+      galleryWindow.scrollLeft = position;
+    }
+
+    requestAnimationFrame(animateGallery);
+  }
+
+  galleryWindow.addEventListener('pointerdown', () => {
+    paused = true;
+  });
+
+  window.addEventListener('pointerup', () => {
+    paused = false;
+    position = galleryWindow.scrollLeft;
+  });
+
+  galleryWindow.addEventListener('mouseenter', () => {
+    paused = true;
+  });
+
+  galleryWindow.addEventListener('mouseleave', () => {
+    paused = false;
+    position = galleryWindow.scrollLeft;
+  });
+
+  requestAnimationFrame(animateGallery);
+}
