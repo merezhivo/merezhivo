@@ -1873,7 +1873,9 @@ h1 em, h2 em, h3 em {
 
 /* on the dark photo the olive lettering/tree vanish: lift them to warm cream */
 .hero-background .logo-hero .logo-center {
-  filter: brightness(0) invert(.93) sepia(.25) drop-shadow(0 0 6px rgba(0, 0, 0, .35));
+  filter:
+    drop-shadow(0 0 1px rgba(0, 0, 0, .95))
+    drop-shadow(0 0 3px rgba(0, 0, 0, .75));
 }
 
 .hero-background .logo-hero .logo-ring {
